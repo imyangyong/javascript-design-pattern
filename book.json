@@ -1,0 +1,47 @@
+{
+  "title": "JavaScript设计模式与开发实践",
+  "author": "Angus Yang",
+  "description": "🦎javascript design pattern",
+  "generator": "site",
+  "links": {
+    "sidebar": {
+      "JavaScript设计模式与开发实践": ""
+    }
+  },
+
+  "plugins": ["disqus", "-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
+    "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
+    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon"],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "design-pattern"
+    },
+    "github": {
+      "url": "https://github.com/AngusYang9/javascript-design-pattern"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy Angus Yang 2020",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "simple-page-toc": {
+      "maxDepth": 0,
+      "skipFirstH1": true
+    },
+    "edit-link": {
+      "base": "https://github.com/AngusYang9/javascript-design-pattern/blob/master",
+      "label": "Edit This Page"
+    },
+    "favicon": "assets/images/favicon.ico",
+    "anchor-navigation-ex": {
+      "showLevel":false,
+      "associatedWithSummary":true
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}

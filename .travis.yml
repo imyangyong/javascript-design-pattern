@@ -1,0 +1,31 @@
+language: node_js
+node_js: stable
+cache:
+  apt: true
+  directories:
+    - node_modules # 緩存不經常更改的內容
+before_install:
+  - openssl aes-256-cbc -K $encrypted_45697e68a489_key -iv $encrypted_45697e68a489_iv
+    -in id_btfe.enc -out ~/.ssh/id_btfe -d
+  - chmod 600 ~/.ssh/id_btfe
+  - echo -e "Host 119.3.215.227\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_btfe" >> ~/.ssh/config
+
+addons:
+  ssh_known_hosts: 119.3.215.227
+
+install:
+  - npm install -g gitbook-cli
+  - gitbook install
+
+before_script:
+
+script:
+  - echo 初始化文件...
+  - gitbook init
+  - echo 正在生成静态文件...
+  - gitbook build
+
+after_success:
+  - cd ./_book/
+  - echo 准备移动至指定文件夹...
+  - scp -o stricthostkeychecking=no -r ./* root@119.3.215.227:/root/AngusYang/www

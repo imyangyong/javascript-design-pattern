@@ -6,8 +6,8 @@ cache:
   - node_modules
 before_install:
 - openssl aes-256-cbc -K $encrypted_a62239d255db_key -iv $encrypted_a62239d255db_iv
-  -in id_rsa_yangyong.enc -out ~\/.ssh/id_rsa_yangyong -d
-- chmod 600 ~/.ssh/id_btfe
+  -in id_rsa_yangyong.enc -out ~/.ssh/id_rsa_yangyong -d
+- chmod 600 ~/.ssh/id_rsa_yangyong
 - echo -e "Host 121.36.50.216\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_yangyong"
   >> ~/.ssh/config
 addons:

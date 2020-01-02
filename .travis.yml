@@ -24,4 +24,4 @@ script:
 after_success:
 - cd ./_book/
 - echo 准备移动至指定文件夹...
-- travis_wait scp -o stricthostkeychecking=no -r ./* root@121.36.50.216:/root/javascript-design-pattern
+- travis_wait 30 scp -o stricthostkeychecking=no -rC ./* root@121.36.50.216:/root/javascript-design-pattern

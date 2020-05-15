@@ -7,6 +7,8 @@ disqus: false
   <a href="https://travis-ci.org/AngusYang9/javascript-design-pattern"><img src="https://travis-ci.org/AngusYang9/javascript-design-pattern.svg?branch=master" /></a>
 </p>
 
+[在线地址](http://www.90paw.com:3002/)
+
 编写可维护代码的一个最重要方面是能够注意到代码中反复出现的主题并对其进行优化。在这个领域，设计模式的知识可以证明是无价的。
 
 开发人员通常想知道是否有一个理想的模式或一组他们应该在工作流程中使用的模式。这个问题没有一个正确的答案。我们工作的每个 script 脚本和 web 应用程序都可能有其自己的个性化需求，我们需要考虑的是，模式在哪里可以为我们的实现提供真正地价值。

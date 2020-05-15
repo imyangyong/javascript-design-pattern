@@ -18,7 +18,7 @@ install:
 before_script:
 script:
 - echo 初始化文件...
-- gitbook init
+# - gitbook init
 - echo 正在生成静态文件...
 - gitbook build
 after_success:

@@ -7,7 +7,7 @@ disqus: false
   <a href="https://travis-ci.org/AngusYang9/javascript-design-pattern"><img src="https://travis-ci.org/AngusYang9/javascript-design-pattern.svg?branch=master" /></a>
 </p>
 
-[在线地址](http://www.90paw.com:3002/)
+[在线地址](https://www.90paw.com/javascript-design-pattern)
 
 编写可维护代码的一个最重要方面是能够注意到代码中反复出现的主题并对其进行优化。在这个领域，设计模式的知识可以证明是无价的。
 

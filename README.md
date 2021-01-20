@@ -46,4 +46,3 @@ disqus: false
 - [模板方法模式 Template Pattern](/模板方法模式.html)    继承共用父类模板
 
 有价值的参考： https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15
-

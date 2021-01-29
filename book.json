@@ -17,7 +17,7 @@
       "shortName": "design-pattern"
     },
     "github": {
-      "url": "https://github.com/AngusYang9/javascript-design-pattern"
+      "url": "https://github.com/imyangyong/javascript-design-pattern"
     },
     "tbfed-pagefooter": {
       "copyright":"Copyright &copy Angus Yang 2020",
@@ -32,7 +32,7 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/AngusYang9/javascript-design-pattern/blob/master",
+      "base": "https://github.com/imyangyong/javascript-design-pattern/blob/master",
       "label": "Edit This Page"
     },
     "favicon": "assets/images/favicon.ico",

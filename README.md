@@ -4,7 +4,7 @@ disqus: false
 
 <h1 align="center" style="margin: 30px 0 35px;">JavaScript Design Patterns</h1>
 <p align="center">
-  <a href="https://travis-ci.org/AngusYang9/javascript-design-pattern"><img src="https://travis-ci.org/AngusYang9/javascript-design-pattern.svg?branch=master" /></a>
+  <a href="https://travis-ci.org/imyangyong/javascript-design-pattern"><img src="https://travis-ci.org/imyangyong/javascript-design-pattern.svg?branch=master" /></a>
 </p>
 
 [在线地址](https://www.90paw.com/javascript-design-pattern)
